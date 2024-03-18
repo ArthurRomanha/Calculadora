@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculos</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <form id="formularioTeste">
+        <label for="numeroUm" class="labelNumeros">Primeiro Número:</label>
+        <input type="number" id="numeroUm" name="numeroUm" class="inputNumber" placeholder="Insira um número" required>
+        
+        <h3>Selecione uma operação:</h3>
+        <label for="soma">&plus;</label>
+        <input class="operacao" type="radio" name="operacao" id="soma" value="+" required><br>
+
+        <label for="subtracao">&minus;</label>
+        <input class="operacao" type="radio" name="operacao" id="subtracao" value="-" required><br>
+
+        <label for="multiplicacao">&times;</label>
+        <input class="operacao" type="radio" name="operacao" id="multiplicacao" value="*" required><br>
+
+        <label for="divisao">&divide;</label>
+        <input class="operacao" type="radio" name="operacao" id="divisao" value="/" required><br><br>
+
+        <label for="numeroDois" class="labelNumeros">Segundo Número:</label>
+        <input type="number" id="numeroDois" name="numeroDois" class="inputNumber" placeholder="Insira um número" required>
+        
+        <button type="submit" id="btnSubmit">Enviar</button>
+    </form>
+    <div id="resultado"></div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
